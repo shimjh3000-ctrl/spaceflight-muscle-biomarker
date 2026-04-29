@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the manuscript and the repository as below."
+type: software
+title: "Spaceflight Muscle Biomarker — Analysis Code"
+version: 1.0.0
+date-released: 2026-04-30
+license: MIT
+url: "https://github.com/shimlab-kaeri/spaceflight-muscle-biomarker"
+repository-code: "https://github.com/shimlab-kaeri/spaceflight-muscle-biomarker"
+abstract: >
+  Analysis code and processed summary tables that produce the 18-gene
+  blood-accessible biomarker panel for real-time monitoring of
+  spaceflight-induced skeletal muscle atrophy. Includes the ISS THP-1 RNA-seq
+  pipeline, PRISMA-compliant meta-analysis (412 studies), the Integration
+  Confidence Score (ICS) framework with bootstrap and permutation tests, the
+  C2C12 cross-tissue concordance analysis, temporal kinetic modelling, and the
+  Drug-Gene Interaction Network with Bliss synergy scoring.
+authors:
+  - family-names: Shim
+    given-names: Jae Ho
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+    email: shimjh3000@korea.ac.kr
+  - family-names: Lee
+    given-names: Ji Yeon
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+  - family-names: Han
+    given-names: Jihye
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+  - family-names: Woo
+    given-names: Sang Woo
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+  - family-names: Lim
+    given-names: Jin Ju
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+  - family-names: Kim
+    given-names: Hyeon Soo
+    affiliation: "Department of Anatomy, Korea University College of Medicine"
+    email: anatomykim@korea.ac.kr
+preferred-citation:
+  type: article
+  title: >
+    Integrative transcriptomics identifies an 18-gene blood-accessible
+    biomarker panel for real-time monitoring of spaceflight-induced muscle
+    atrophy
+  authors:
+    - family-names: Shim
+      given-names: Jae Ho
+    - family-names: Lee
+      given-names: Ji Yeon
+    - family-names: Han
+      given-names: Jihye
+    - family-names: Woo
+      given-names: Sang Woo
+    - family-names: Lim
+      given-names: Jin Ju
+    - family-names: Kim
+      given-names: Hyeon Soo
+  journal: "Scientific Reports"
+  year: 2026
+  notes: "Under review"
+keywords:
+  - spaceflight
+  - microgravity
+  - skeletal muscle atrophy
+  - biomarker
+  - transcriptomics
+  - RNA-seq
+  - meta-analysis
+  - THP-1
+  - C2C12
+  - DESeq2

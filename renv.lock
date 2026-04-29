@@ -1,0 +1,29 @@
+{
+  "R": {
+    "Version": "4.2.1",
+    "Repositories": [
+      { "Name": "CRAN", "URL": "https://cran.r-project.org" },
+      { "Name": "BioCsoft", "URL": "https://bioconductor.org/packages/3.16/bioc" },
+      { "Name": "BioCann",  "URL": "https://bioconductor.org/packages/3.16/data/annotation" },
+      { "Name": "BioCexp",  "URL": "https://bioconductor.org/packages/3.16/data/experiment" }
+    ]
+  },
+  "Packages": {
+    "DESeq2":      { "Source": "Bioconductor", "Version": "1.34.0" },
+    "apeglm":      { "Source": "Bioconductor", "Version": "1.16.0" },
+    "metafor":     { "Source": "Repository",   "Version": "3.8.1",  "Repository": "CRAN" },
+    "GOSemSim":    { "Source": "Bioconductor", "Version": "2.20.0" },
+    "clusterProfiler": { "Source": "Bioconductor", "Version": "4.4.4" },
+    "STRINGdb":    { "Source": "Bioconductor", "Version": "2.8.4"  },
+    "ComplexHeatmap": { "Source": "Bioconductor", "Version": "2.12.0" },
+    "ggplot2":     { "Source": "Repository",   "Version": "3.4.4",  "Repository": "CRAN" },
+    "ggpubr":      { "Source": "Repository",   "Version": "0.6.0",  "Repository": "CRAN" },
+    "patchwork":   { "Source": "Repository",   "Version": "1.1.3",  "Repository": "CRAN" },
+    "dplyr":       { "Source": "Repository",   "Version": "1.1.4",  "Repository": "CRAN" },
+    "tidyr":       { "Source": "Repository",   "Version": "1.3.0",  "Repository": "CRAN" },
+    "readr":       { "Source": "Repository",   "Version": "2.1.4",  "Repository": "CRAN" },
+    "stringr":     { "Source": "Repository",   "Version": "1.5.0",  "Repository": "CRAN" },
+    "boot":        { "Source": "Repository",   "Version": "1.3-28", "Repository": "CRAN" },
+    "nls.multstart": { "Source": "Repository", "Version": "1.3.0",  "Repository": "CRAN" }
+  }
+}

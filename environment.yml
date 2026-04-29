@@ -1,0 +1,55 @@
+# Conda environment for ISS THP-1 spaceflight muscle biomarker analysis
+# Python-side tools (alignment, quantification, plotting). For R tools see renv.lock.
+#
+# Create with:
+#   conda env create -f environment.yml
+#   conda activate spaceflight-muscle
+
+name: spaceflight-muscle
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # --- Alignment & quantification ---
+  - star=2.7.10a
+  - subread=2.0.1            # provides featureCounts
+  - samtools=1.17
+  - fastqc=0.12.1
+  - trim-galore=0.6.10
+
+  # --- General-purpose Python data science ---
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.10
+  - scikit-learn>=1.3
+  - statsmodels>=0.14
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - plotly>=5.15
+
+  # --- Network / pathway analysis (Python side) ---
+  - networkx>=3.1
+  - python-igraph>=0.10
+  - leidenalg>=0.10
+
+  # --- Genomics utilities ---
+  - pybiomart>=0.2.0
+  - pyranges>=0.0.120
+  - gseapy>=1.0.5
+
+  # --- Notebooks & development ---
+  - jupyterlab>=4.0
+  - ipython>=8.14
+  - black>=23.7
+  - ruff>=0.1.0
+
+  - pip:
+    # CMap / DGIdb / DrugBank query helpers
+    - cmapPy>=4.0.1
+    - drugbank-downloader>=1.1.0
+    - bioservices>=1.11.2

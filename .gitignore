@@ -1,0 +1,108 @@
+# --- Raw sequencing data (download from GEO/OSDR; NEVER commit) ---
+data/raw/
+data/fastq/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.bai
+*.sra
+
+# --- Reference genomes / indexes ---
+references/
+GRCh38*
+GENCODE*
+*.fa
+*.fa.gz
+*.fasta
+*.gtf
+*.gtf.gz
+star_index/
+
+# --- Large intermediate files ---
+*.RData
+*.rds
+*.h5
+*.h5ad
+*.feather
+*.parquet
+*.pkl
+*.npy
+*.npz
+
+# Quantification outputs (regenerable)
+counts/
+*.counts
+*.htseq
+featurecounts_output/
+
+# --- R session files ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/local/
+renv/lock/
+renv/python/
+renv/staging/
+.Rprofile
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+*.ipynb_meta
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs and temporary ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# --- Jupyter ---
+*.ipynb
+!docs/*.ipynb
+
+# --- Credentials (never commit) ---
+.env
+.env.*
+*.key
+*.pem
+secrets.yml
+credentials.json
+
+# --- Manuscript / submission artefacts (kept separately) ---
+manuscripts/
+*.docx
+*.pdf
+!docs/*.pdf
