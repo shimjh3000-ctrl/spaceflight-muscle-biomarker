@@ -9,7 +9,7 @@ Analysis code, processed data summaries, and figure-reproduction scripts for the
 
 > **Integrative transcriptomics identifies an 18-gene blood-accessible biomarker panel for real-time monitoring of spaceflight-induced muscle atrophy**
 > Shim JH, Lee JY, Han J, Woo SW, Lim JJ, Kim HS.
-> *Scientific Reports* (2026, under review).
+
 
 Department of Anatomy, Korea University College of Medicine, Seoul, Republic of Korea.
 
