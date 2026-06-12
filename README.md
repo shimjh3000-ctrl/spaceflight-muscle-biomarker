@@ -138,10 +138,9 @@ If you use this code or data in your research, please cite the manuscript and th
              muscle atrophy},
   author  = {Shim, Jae Ho and Lee, Ji Yeon and Han, Jihye and
              Woo, Sang Woo and Lim, Jin Ju and Kim, Hyeon Soo},
-  journal = {Scientific Reports},
+  journal = {},
   year    = {2026},
-  note    = {Under review}
-}
+ }
 ```
 
 A persistent **Zenodo DOI** for this repository will be issued at the time of acceptance and added here.
